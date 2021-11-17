@@ -23,7 +23,7 @@ public class CibiPreferiti {
 		
 		System.out.println("\nThe length of the scoreboard is: " + favFoods.length + ".");
 		System.out.println("The food in first position is: " + favFoods[0] + ".");
-		System.out.println("The food in last position is: " + favFoods[4] + ".");
+		System.out.println("The food in last position is: " + favFoods[favFoods.length - 1] + ".");
 		
 		//nel caso di array con numero di elementi dispari la mediana è l'elemento centrale
 		//nel caso di array con numero di elementi pari invece bisogna prendere quelli in posizione n/2 e (n/2 + 1)
